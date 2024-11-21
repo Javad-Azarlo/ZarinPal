@@ -1,0 +1,114 @@
+.banner {
+    width: 1050px;
+    padding: 124px 60px 80px;
+    background-image: linear-gradient(135deg, #21254e, #2b4a83);
+    border-radius: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bannerText {
+    font-family: YekanBakhHeavy;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .bannerText p {
+    color: #fff;
+    font-size: 1.15rem;
+    margin: 25px 0;
+    line-height: 2.5rem;
+  }
+  .bannerImg img {
+    width: 500px;
+  }
+  .bannerBtn {
+    margin-top: 60px;
+  }
+  .register {
+    font-size: 1rem;
+    font-family: YekanBakhBold;
+    color: #000;
+    background-color: #ffd900;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  .login {
+    font-size: 1rem;
+    font-family: YekanBakhBold;
+    color: #fff;
+    background-color: #435a8a;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .goDown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 58px;
+  }
+  .goDown div {
+    background-image: url(../../images/arrowbottom.svg);
+    width: 164px;
+    height: 78px;
+  }
+  .goDown img {
+    width: 15px;
+    position: relative;
+    top: -60px;
+  }
+  @media (max-width: 1200px) {
+    .banner {
+      width: 900px;
+      padding: 40px 60px 120px;
+    }
+    .bannerImg img {
+      width: 430px;
+    }
+  }
+  @media(max-width : 990px){
+      .banner{
+          width: auto;
+          padding: 40px 40px 85px;
+          margin-left: 35px;
+          margin-right: 35px;
+          
+      }
+      .bannerImg img{
+           display: none;
+      }
+      .bannerText{
+          text-align: center;
+      }
+      .bannerText p{
+          margin: 5px 0;
+      font-size: 1rem;
+      }
+      .bannerBtn{
+          margin-top: 40px;
+      }
+  }
+  @media(max-width : 768px){
+      .banner{
+          margin-left: 8px;
+          margin-right: 8px;
+      }
+  }
+  @media(max-width :575px){
+      .banner{
+          padding: 80px 40px;
+      }
+      .bannerText h3{
+          font-size: 1.2rem;
+          text-align: right;
+      }
+      
+  }
+  

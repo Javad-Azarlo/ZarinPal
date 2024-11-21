@@ -1,0 +1,69 @@
+.support {
+  width: 1110px;
+  height: 70px;
+  padding: 0 30px;
+  margin: 50px;
+  background: #fbf6f1;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.supportNumber {
+  font-family: YekanBakhHeavy;
+  font-size: 1.5rem;
+}
+#line {
+  margin: 0 15px;
+}
+#phoneNumber {
+  color: #21254e;
+}
+.supportRequest {
+  display: flex;
+  color: #21254e;
+  font-family: YekanBakhBold;
+  font-size: 1.5rem;
+}
+.supportRequest img {
+  width: 20px;
+  margin-right: 10px;
+}
+@media (max-width: 1200px) {
+  .support {
+    width: 880px;
+  }
+}
+@media (max-width: 990px) {
+  .support {
+    width: calc(100% - 120px);
+  }
+  .supportNumber,
+  .supportRequest {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .support {
+    flex-direction: column;
+    align-items: flex-start;
+    background: none;
+  }
+  .supportRequest {
+    background-color: #fbf6f1;
+    padding: 5px 20px;
+    border-radius: 35px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .support {
+    width: calc(100% - 60px);
+    padding: 0;
+    margin: 50px 30px;
+  }
+  .supportNumber,
+  .supportRequest {
+    font-size: 0.95rem;
+  }
+}

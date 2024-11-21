@@ -1,0 +1,57 @@
+.startBox {
+  width: 1170px;
+  height: 220px;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid silver;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.startBox h4 {
+  font-family: YekanBakhHeavy;
+  font-size: 1.7rem;
+}
+.startBox p {
+  font-family: YekanBakhMedium;
+  font-size: 1.4rem;
+  color: #747480;
+  margin-top: 10px;
+}
+.startBox a {
+  text-decoration: none;
+  font-family: iranyekanwebmedium;
+  font-size: 0.9rem;
+  min-height: 28px;
+  line-height: 28px;
+  padding: 4px 14px;
+  background-color: #ffd900;
+  color: #000;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+@media (max-width: 990px) {
+  .startBox {
+    margin: 0 38px;
+    width: calc(100% - 76px);
+  }
+}
+@media (max-width: 768px) {
+  .startBox {
+    margin: 0 8px;
+    width: calc(100% - 16px);
+  }
+}
+@media (max-width: 550px) {
+  .startBox {
+    height: 180px;
+  }
+  .startBox h4{
+    font-size: 1.2rem;
+  }
+  .startBox p{
+    font-size: 1rem;
+  }
+}

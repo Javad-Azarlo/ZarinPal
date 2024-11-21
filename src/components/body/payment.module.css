@@ -1,0 +1,111 @@
+.onlinePayment {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.onlinePayment img {
+  width: 450px;
+  height: 480px;
+}
+.sectionText {
+  margin: 30px 0;
+  width: 530px;
+}
+.sectionText h2 {
+  color: #747480;
+  font-family: YekanBakhMedium;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin: 20px 0 5px;
+}
+
+.sectionText h3 {
+  color: #303030;
+  font-family: YekanBakhHeavy;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 5px 0 10px;
+}
+.sectionText p {
+  color: #303030;
+  font-family: YekanBakhMedium;
+  text-align: justify;
+  line-height: 40px;
+  border-bottom: 1px solid #dfe1e4;
+  padding-bottom: 20px;
+  margin-top: 16px;
+}
+.sectionLinks {
+  margin-top: 40px;
+  display: flex;
+}
+.sectionLinks .firstBtn {
+  font-size: 0.9rem;
+  font-family: iranyekanwebmedium;
+  color: #000;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: #ffd900;
+}
+.sectionLinks .secondBtn {
+  /* display: block; */
+  font-size: 0.9rem;
+  font-family: iranyekanwebmedium;
+  color: #28457b;
+  background-color: rgba(232, 239, 254, 0.7);
+  padding: 6px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.sectionLinks .secondBtn img {
+  width: 18px;
+  height: 15px;
+  margin-right: 5px;
+}
+@media (max-width: 1200px) {
+  .onlinePayment {
+    width: 940px;
+  }
+}
+
+@media (max-width: 990px) {
+  .onlinePayment {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionText {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .onlinePayment img {
+    width: 460px;
+    height: 480px;
+  }
+}
+@media (max-width: 575px) {
+  .onlinePayment .sectionImg {
+    display: none;
+  }
+  .sectionText {
+    width: 80%;
+    padding: 0 10px;
+  }
+  .sectionText h3 {
+    font-size: 1.5rem;
+  }
+}
